@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+  }
+  
+  body{  width: 100%;
+    
+
+}
+  header{
+    width: 100%;
+    background-color: rgb(5, 5, 5);
+    padding: 20px; 10px;
+    float:left;
+  }
+  header h2{  color: rgb(255, 0, 0);  float: left;}
+  header h2 span{  color: black;}
+  header nav{  float: right;}
+  header nav ul{  list-style: none;}
+  header nav ul li{
+    display: inline-block;
+    padding: 5px;
+  }
+  header nav ul li a{
+    color:orange;
+    padding: 10px;
+    text-decoration: none;
+  }
+  header nav ul li a:hover{
+  color: black;
+  background-color: orange;
+  padding: 10px;
+  cursor: pointer;
+  }
+  main{
+    width: 100%;
+    float: left;
+  }
+  section{
+    width: 58%;
+    padding: 40px 5%;
+  }
+  section fieldset{
+    border: 2px solid #c3c3c3;
+    padding: 10px 5%;
+  }
+  section fieldset legend{
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 0px;
+  }
+  section form{
+    width: 100%;
+    padding: 20px;
+  }
+  section form label{
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+    display: inline-block;
+  }
+  section form p{
+    background-color: rgb(9, 255, 0);
+    color: black;
+    padding: 10px;
+    display: none;
+  }
+  section form input[type="text"]{
+    width: 100%;
+    padding: 10px;
+  }
+  section form input[type="text"]:hover{
+    border: 1px solid orange;
+    padding: 10px;
+  }
+  section form select{
+    width: 100%;
+    padding: 15px;
+    background-color: #c3c3c3;
+    color: black;
+    border: none;
+    cursor: pointer;
+  
+  }
+  section form input[type="submit"]{
+    width: 100%;
+    background-color: red;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  section form input[type="submit"]:hover{
+    background-color: rgba(255, 0, 0, 0.548);
+  }
+  .pedido{
+    background-color:black;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    }
+ 
+  .en{
+    background-color:black;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+  }
+  .bebidas{
+    background-color:black;
+    color: orange;
+    padding: 10px;
+  }
+  body{
+    background-image: url();
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center; 
+  }
+  
+  .quantidade{
+    border-style: groove; 
+    padding: 5px 5px;
+    width: 10%;
+    font-weight: bold;
+  }
+
+
+  .limpar{
+    width: 100%;
+    background-image: linear-gradient(to bottom,white,red);
+    padding: 20px;
+    cursor: pointer;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  .limpar:hover{
+    background-color: rgba(0, 255, 55, 0.548);
+  }
+  .autor{
+    color: red;
+    font-size: medium;
+    font-weight: bold;
+  }
+  .autor2{
+    color: red;
+    font:bold;
+    font-size: medium;
+  }
+  .criador{
+    float:center;
+  }
+  .qua{
+    border-style: groove; 
+    padding: 5px 5px;
+    width: 10%;
+    font-weight: bold;
+  
+  }
+  .r{
+    font-size: 25px;
+    font-weight: bold;
+  }
